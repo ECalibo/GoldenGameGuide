@@ -51,18 +51,62 @@
   input[type="checkbox"]{
     display: none;
   }
-      .content{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    z-index: -1;
-    width: 100%;
-    padding: 0 30px;
-    color: #1b1b1b;
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+  
   }
-  .content div{
-    font-size: 40px;
-    font-weight: 700;
+  .one {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    padding: 20px;
+    background-color: darkgreen;
+    opacity: 100%
+  }
+  
+  .two {
+    grid-column: 3 / 5;
+    grid-row: 1;
+    padding: 20px;
+    background-color: darkred;
+    opacity: 100%
+  }
+  
+  .three {
+    grid-column: 3 / 5;
+    grid-row: 2;
+    padding: 20px;
+    background-color: darkblue;
+    opacity: 100%
+  }
+  
+  .four {
+    grid-column: 1 / 5;
+    grid-row: 3;
+    text-align: center;
+    padding: 20px;
+    background-color: purple;
+    opacity: 100%;
+  }
+  
+  div.one{
+    filter: drop-shadow(-16px -16px yellow);
+  }
+  
+  div.two{
+    filter: drop-shadow(16px -16px red);
+  }
+  
+  div.three{
+    filter: drop-shadow(16px 16px blue)}
+  
+  div.four{
+    filter: drop-shadow(-16px 16px orange);
   }
