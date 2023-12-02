@@ -54,15 +54,36 @@ input[type="checkbox"]{
 }
 
 .content div{
-  font-size: 40px;
-  font-weight: 700;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  grid-auto-rows: minmax(100px, auto);
+  padding: 20px;
+  font-size: 30px;
+  color: black;
 }
 
-
-.left {
-  width: 200px; float: left;
+.gamers {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  padding: 20px;
+  width: 800px; float: left;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
-.right {
-  margin-left: 220px; width: 380px;
+.explanation {
+  grid-column: 3 / 5;
+  grid-row: 1;
+  padding: 20px;
+}
+
+.example {
+  grid-column: 3 / 5;
+  grid-row: 1;
+  padding: 20px;
+}
+
+ul {
+  margin: 20px;
 }
