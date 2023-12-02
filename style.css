@@ -54,12 +54,9 @@ input[type="checkbox"]{
 }
 
 .content div{
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-  grid-auto-rows: minmax(100px, auto);
-  padding: 20px;
   font-size: 30px;
+  font-weight: 700px;
+  display: grid;
   color: black;
 }
 
@@ -73,14 +70,10 @@ input[type="checkbox"]{
 }
 
 .explanation {
-  grid-column: 3 / 5;
-  grid-row: 1;
   padding: 20px;
 }
 
 .example {
-  grid-column: 3 / 5;
-  grid-row: 1;
   padding: 20px;
 }
 
