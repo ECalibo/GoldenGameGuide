@@ -1,9 +1,8 @@
-
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
 } 
 nav{
   display: flex;
@@ -51,31 +50,4 @@ nav .menu-btn i{
 }
 input[type="checkbox"]{
   display: none;
-}
-
-.content div{
-  font-size: 30px;
-  font-weight: 700px;
-  display: grid;
-  color: black;
-}
-
-.gamers {
-  display: flex;
-  padding: 20px;
-  width: 600px;
-  margin-right: 20px;
-  margin-left: 20px;
-}
-
-.explanation {
-  padding: 20px;
-}
-
-.example {
-  padding: 20px;
-}
-
-ul {
-  margin: 20px;
 }
