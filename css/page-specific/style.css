@@ -1,66 +1,28 @@
-/*images V
-Body img{
-  display: flex;
-  justify-content: left;
-  align-items: left;
-  min-height: 10vh;
-}
-
-.wrapper {
-  margin: 15px;
-  width: 100%;
-}
-
-
 img {
-  width: 50%;
-  height: auto;
+  margin: 15px;
 }
 
+.content {
+  margin-top: 100px;
+}
 
-.text-box{
-  justify-content: right;
-  align-items: right;
-  margin: 15px;
+img[alt~="Nintrotendo"] {
+  width: 50%;
+}
+
+img[alt~="PS5Intro"] {
+  width: 75%;
+}
+
+img[alt~="XBoxIntro"] {
+  width: 50%;
+}
+
+table tbody tr td a{
   color: black;
-  width: 60%;
-}
-
-
-.text-box h2 {
-  width: 50%;
-  font-size: 42px;
-}
-
-.text-box p {
-  width: 50%;
-  font-size: 20px;
-  border: 3px solid black;
-  border-radius: 10px;
-}
-images ^*/
-
-img {
-  width: 5%;
-  height: auto;
-}
-
-.LogoPic {
-  width: 1%;
-  height: auto;
-}
-
-.XBOXPic {
-  width: 30%;
-  height: auto;
-}
-
-.PlaystationPic {
-  width: 30%;
-  height: auto;
-}
-
-.NintendoPic {
-  width: 30%;
-  height: auto;
+  background-color: goldenrod;
+  font-size: 17px;
+  padding: 8px 15px;
+  border-radius: 3px;
+  text-transform: uppercase;
 }

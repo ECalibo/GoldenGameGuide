@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -10,8 +11,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
   </head>
   <body>
-<!--Menu-->
-   <nav>
+   <div id="navbar">
+      <nav>
       <input type="checkbox" id="check">
       <label for="check" class="checkbtn">
         <i class="fas fa-bars"></i>
@@ -24,12 +25,16 @@
         <li><a href="nintendo.html">Nintendo Switch</a></li>
         <li><a href="aboutus.html">About Us</a></li>
       </ul>
-    </nav>    
-<script src="javascript/stickymenu.js"></script>
+    </nav>
+   </div>
+    
+    <script src="javascript/stickymenu.js"></script>
 
-<div style="overflow-x:auto;">
+<div class="content">
+   <div style="overflow-x:auto;">
    <table>
-      <caption>Recommended Games</caption>
+      <caption>Welcome to the Golden Games Guide</caption>
+      <caption>The latest generation of video game consoles are amazing and we are here to show them to you.</caption>
       <thead>
          <tr>
             <th>XBox Series X</th>
@@ -39,34 +44,28 @@
       </thead>
       <tbody>
          <tr>
-            <th>Halo Infinite</th>
-            <td>First Person Shooter</td>
-            <td>343 Industries</td>
+            <th><img src="images/pexels-martin-martz-16776031.jpg" alt="XBoxIntro"></th>
+            <td><img src="images/pexels-fox-13189290.jpg" alt="PS5Intro"></td>
+            <td><img src="images/pexels-polina-tankilevitch-4523012.jpg" alt="Nintrotendo"></td>
          </tr>
          <tr>
-            <th>Starfield</th>
-            <td>Role-Playing Game</td>
-            <td>First Person Shooter</td>
+            <td>Get ready to be entertained for hours on end by the Xbox Series X.</td>
+            <td>If you want to play, then it's in the name. Try the Playstation 5 today.</td>
+            <td>Fun times with family and friends are also better with the Nintendo Switch.</td>
          </tr>
          <tr>
-            <th>Ori and the Will of the Wisps</th>
-            <td>Adventure Platformer</td>
-            <td>First Person Shooter</td>
+            <td><br><a href="xbox.html">XBOX Series X</a><br>-</td><br>
+            <td><br><a href="playstation.html">Playstation 5</a></td><br>
+            <td><br><a href="nintendo.html">Nintendo Switch</a></td><br>
          </tr> 
          <tr>
-            <th>Psychonauts 2</th>
-            <td>Platformer</td>
-            <td>First Person Shooter</td>
-         </tr>
-         <tr>
-            <th>Sea of Thieves</th>
-            <td>Action-Adventure</td>
-            <td>First Person Shooter</td>
+            <td>Released Date: November 10, 2020</td>
+            <td>Released Date: November 12, 2020</td>
+            <td>Release Date: March 3, 2017</td>
          </tr>
       </tbody>
    </table>
  </div>
- 
-<!--Table-->
+</div>
   </body>
 </html>

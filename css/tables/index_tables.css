@@ -4,7 +4,7 @@ table {
    margin-right: auto;
    border-collapse: collapse;
    border-spacing: 0;
-   width: 75%;
+   width: 98%;
    border: 1px solid #ddd;
    margin: 15px;
  }
@@ -16,6 +16,7 @@ th, td {
 
 th, td {
    border: 1px solid gold;
+   width: 33%;
    padding: px;
    text-align: center;
    vertical-align: top;
