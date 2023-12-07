@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="css/page-specific/aboutus.css">
     <link href="css/nav.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="javascript/stickymenu.js"></script>
   </head>
   <body>
-    <nav>
+    <div id="navbar">
+      <nav>
       <input type="checkbox" id="check">
       <label for="check" class="checkbtn">
         <i class="fas fa-bars"></i>
@@ -23,6 +25,37 @@
         <li><a class="active" href="aboutus.html">About Us</a></li>
       </ul>
     </nav>
-    <section></section>
+    </div>
+
+    <script src="javascript/stickymenu.js"></script>
+
+    <p>We here at Golden Games Guide are dedicated to helping people getting into the world of gaming. Whether it's helping new gamers decide which console should be their first or helping old gamers know what the new consoles do, we love providing information about the different consoles that bring so much joy to so many people around the world.
+      <br><br>Gaming is very popular right now and that popularity will bring a lot of new players. We here at Golden Games Guide are dedicated to helping a lot of these new gamers press start on their gaming journey. The newest generation of consoles are perfect for the newest generation of gamers because of their unparalleled ability to keep people entertained, compared to their predecessors.
+      <br><br>Golden Games Guide is also dedicated to providing old gamers information on the newest generation of consoles. People who have been playing since the days of the Nintendo NES from the 80s to the original Xbox from 2001 can learn a lot about the new kids on the block at Golden Games Guide. The latest generation of consoles have a lot of great features to enhance the game-playing experience while also having a decent library of older games for the nostalgic.
+      <br><br>Thank you for consulting the Golden Games Guide to the newest generation of consoles. We love informing the gaming public on the different consoles and what they do and your viewership is greatly appreciated. If you would like to you can also contact us with the information below or send us a message in the form below.
+            <br>
+            <br>- Phone: 1-670-432-6978
+            <br>- Email: goldengamesguide@gmail.com
+            <br>- And you can message us with the form below. 
+    </p>
+
+         <div class="container">
+          <h1>Send Us A Message</h1>
+          <form action="mailto:goldengamesguide@gmail.com" method="post" enctype="text/plain">
+            <div class="row">
+              <div class="col-25">
+                <label for="comment">Your Comment</label>
+              </div>
+              <div class="col-75">
+                <textarea id="comment" name="comment" placeholder="Thanks for your feedback.." style="height:200px"></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <input type="submit" value="Submit">
+              <input type="reset" value="Reset">
+            </div>
+          </form>
+        </div>
+           
   </body>
 </html>
